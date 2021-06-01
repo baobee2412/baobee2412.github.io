@@ -1,50 +1,132 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>ASSIGNMENT 2</title>
-    <link rel="stylesheet" href="styles.css">
-  
-    <h1 style="text-align: center; color: rgb(121, 88, 88); text-shadow: 2px 2px 4px #faf8f8;
-    border: 5px solid currentcolor; border-style:groove; background-color: rgb(196, 195, 194);
-    ">ASSIGNMENT 2</h1>
-    <table style="width:100%">
-        <tr>
-          <th><img style="text-align: left;" src="avatar.jpg" width="290" height="258" id="borderimg"></th>
-          <th style="text-align: left; text-shadow: 2px 2px 4px #faf8f8; font-size: 180%;">
-              <p style="text-align: left; font-size: 16px;text-shadow: 2px 2px 4px #faf8f8;color: rgb(102, 61, 61); font-size: 130%;">Name: Nguyen Hoang Thong</p>
-              <p style="text-align: left; font-size: 16px;text-shadow: 2px 2px 4px #faf8f8;color: rgb(102, 61, 61); font-size: 130%;">ID: S3893648</p>
-          </th> 
-        </tr>      
-    </table>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <a href="Journal1.html" class="button" style="margin-left: 35%;" >JOURNAL 1</a>
-    <a href="Journal2.html" class="button">JOURNAL 2</a>
-    <a href="Journal3.html" class="button">JOURNAL 3</a>
-    <a href="Journal4.html" class="button">JOURNAL 4</a>
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-    <div style="margin-top:1.8%">
-    <h1>Action Plan</h1>
-    <p>During the Introduction to Science and Technology course, I learned some things new to support my future student life, such as ultimately using the benefits of the library, practising and improving presentation, getting to know about cryptography, etc. On top of that, this course somehow gave me extra thoughts and had an overall look at RMIT school to manage my plans well for my future paths. Thus, there are three factors that I have to manage well such as games, the library and professors.</p>
-    <p>I have played games since I was little; playing games too much might negatively affect my study, but it became my identity; I cannot deny it, but I can control it. As a first-year full-time student, I will have approximately 8 hours a day to do what I want. I’m not addicted to games such as playing all day. However, if I don’t play it even a few times a day, I will feel missing and uncomfortable. I will set three 45-minute periods in my timetable to play games; I’ll call that “short-term demanding satisfaction”. I can gradually satisfy my demand for the visual world for a while, spend the rest of my time doing sovmething else, and get back to study as usual.</p>
-    <p>The autonomy study is required in the university. In this case, I must research a lot, and the RMIT library will help me to improve my knowledge. However, the human brain will forget approximately 2,000 pixels every day. Thus, reading only is not the best method for long-term study, but it is required to have a break and review. Once I have to read a book for any random challenging questions or topics from my professors, I will set up four 45-minute periods as four steps; they are collecting information by reading, taking note, evaluating and analysing. I also have 10 minutes break in each step to recover energy for my brain. I know that I will have many unknown issues because Information Technology is a challenging field; Once I get stuck, I will take notes and try to research at first; if I cannot find solutions, I will try the RMIT booking appointment system with professors.</p>
-    <p>In summary, I will have my way of time management depending on the school timetable. Nevertheless, I will probably spend at least six extra hours a day studying by reviewing previous lessons, taking notes on unknown issues and asking professors for help.</p>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>ASSIGNMENT 2</h1>
+<hr>
+
+<h2>NGUYEN HOANG THONG - S3893648 </h2>
+<p>These are my 4 journals during the whole Introduction of Technology course</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="bns.jpg" alt="Mountains" style="width:100%;" >
+      <h3>Blade and Soul</h3>
+      <p>As a positive-born person, I am hardly ever stressed towards something but bored. There is something that I have been contributing since I was little, which is playing games; It is one of my predominant favourites getting me out of the boredom of life...<a href="Journal1.html">more</a></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="rmit.jpg" alt="Lights" style="width:100%;" height="130px">
+      <h3>Appointment system</h3>
+      <p>In the previous course, I had a chance to book an interview with my professor to discuss group assignment, which was my first time interacting with professors like that. It gained me essential experiences to adapt to the new university environment, also how...<a href="Journal2.html">more</a> </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="genshin.jpg" alt="Nature" style="width:100%" height="130px">
+      <h3>Genshin Impact</h3>
+      <p>I have been a gaming player since I was little. There is one new hot trending online game that I have been recently playing is Genshin Impact. I got impressed with the gaming system, in-game graphic and the enticement of Gacha games, which is...<a href="Journal3.html">more</a></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="library.jpg" alt="Mountains" style="width:100%" height="130px">
+      <h3>The library</h3>
+      <p>I had a chance to experience one of the most significant value resources in RMIT before the lockdown, which is the library. I discovered around, experienced the searching and booking system, and learned to use some useful tools in the...<a href="Journal4.html">more</a>
+
+    </p>
+    </div>
+  </div>
+<!-- END GRID -->
 </div>
 
+<div class="content">
+  <img src="avatar.jpg" alt="Bear" style="width:100%">
+  <h3>Action Plan</h3>
+  <p>During the Introduction to Science and Technology course, I learned some things new to support my future student life, such as ultimately using the benefits of the library, practising and improving presentation, getting to know about cryptography, etc. On top of that, this course somehow gave me extra thoughts and had an overall look at RMIT school to manage my plans well for my future paths. Thus, there are three factors that I have to manage well such as games, the library and professors.</p>
+  <p>I have played games since I was little; playing games too much might negatively affect my study, but it became my identity; I cannot deny it, but I can control it. As a first-year full-time student, I will have approximately 8 hours a day to do what I want. I’m not addicted to games such as playing all day. However, if I don’t play it even a few times a day, I will feel missing and uncomfortable. I will set three 45-minute periods in my timetable to play games; I’ll call that “short-term demanding satisfaction”. I can gradually satisfy my demand for the visual world for a while, spend the rest of my time doing sovmething else, and get back to study as usual.</p>
+  <p>The autonomy study is required in the university. In this case, I must research a lot, and the RMIT library will help me to improve my knowledge. However, the human brain will forget approximately 2,000 pixels every day. Thus, reading only is not the best method for long-term study, but it is required to have a break and review. Once I have to read a book for any random challenging questions or topics from my professors, I will set up four 45-minute periods as four steps; they are collecting information by reading, taking note, evaluating and analysing. I also have 10 minutes break in each step to recover energy for my brain. I know that I will have many unknown issues because Information Technology is a challenging field; Once I get stuck, I will take notes and try to research at first; if I cannot find solutions, I will try the RMIT booking appointment system with professors.</p>
+  <p>In summary, I will have my way of time management depending on the school timetable. Nevertheless, I will probably spend at least six extra hours a day studying by reviewing previous lessons, taking notes on unknown issues and asking professors for help.</p>
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
+<!-- END MAIN -->
+</div>
 
 </body>
 </html>
