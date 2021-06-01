@@ -1,0 +1,8 @@
+body {
+  background-image: linear-gradient(rgb(218, 159, 159), rgba(49, 155, 111, 0.589));
+}
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(avatar.jpg) 30 stretch;
+}
